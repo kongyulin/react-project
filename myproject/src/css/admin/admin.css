@@ -1,0 +1,23 @@
+.admin {
+  background-color: aliceblue;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+.admin .layout {
+  width: 95%;
+  height: 95%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-flow: wrap;
+}
+.admin .layout .infor {
+  display: flex;
+  flex-flow: wrap;
+}
